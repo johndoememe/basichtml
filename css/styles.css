@@ -1,0 +1,129 @@
+/******* ELEMENTS *******/
+
+a {
+  color: #11999e;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+  color: #40514e;
+}
+
+hr {
+  border-width: 6px;
+  border-style: dotted none none none;
+  color: #eaf6f6;
+  margin: 80px auto;
+  width: 5%;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 35px auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+/******* CLASSES *******/
+
+.bottomContainer {
+  background-color: #66bfbf;
+  padding: 50px 0 25px 0;
+}
+
+.bottomContainer a {
+  text-decoration: none;
+  margin: auto 15px ;
+}
+
+.bottomContainer p{
+  color: #eaf6f6;
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: #46adad;
+  border-radius: 8px;
+  display: inline-block;
+  color: #ffffff;
+  padding: 12px 18px;
+  text-decoration: none;
+  margin: 30px auto 80px auto;
+}
+.cloud01 {
+  position: absolute;
+  right: 200px;
+  top: 60px;
+}
+
+.cloud02 {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.leftImg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile img {
+  border-radius: 100%;
+  margin-top: 50px;
+  width: 15%;
+}
+
+.profile p,
+.contactMe p {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.rightImg {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skillRow {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skillRow p {
+  line-height: 2;
+}
+
+.subHeading {
+  font-weight: normal;
+}
+
+.topContainer {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.uLine {
+  text-decoration: underline;
+}
